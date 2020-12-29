@@ -17,6 +17,7 @@ gem 'slim_lint'
 gem 'pg'
 gem 'turbolinks', '~> 5'
 gem 'webpacker', '~> 4.0'
+gem 'bootstrap'
 
 gem 'bootsnap', '>= 1.4.2', require: false
 group :development, :test do
