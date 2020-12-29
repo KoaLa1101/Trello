@@ -11,13 +11,14 @@ gem 'puma', '~> 4.1'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 gem 'rubocop'
 gem 'sass-rails', '>= 6'
+gem 'bootstrap-sass'
+gem 'bootstrap'
 gem 'scss_lint'
 gem 'slim'
 gem 'slim_lint'
 gem 'pg'
 gem 'turbolinks', '~> 5'
 gem 'webpacker', '~> 4.0'
-gem 'bootstrap'
 
 gem 'bootsnap', '>= 1.4.2', require: false
 group :development, :test do
