@@ -3,8 +3,6 @@
 Rails.application.routes.draw do
   get 'todos/create'
   get 'todos/destroy'
-  get 'to_dos/create'
-  get 'to_dos/destroy'
   get 'home/show'
   root to: 'home#show'
 
