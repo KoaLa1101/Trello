@@ -5,18 +5,19 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.1'
 
+gem 'bootstrap'
+gem 'bootstrap-sass'
 gem 'eslint-rails'
 gem 'jbuilder', '~> 2.7'
+gem 'pg'
 gem 'puma', '~> 4.1'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 gem 'rubocop'
+gem 'sassc', '~> 2.1.0'
 gem 'sass-rails', '>= 6'
-gem 'bootstrap-sass'
-gem 'bootstrap'
 gem 'scss_lint'
 gem 'slim'
 gem 'slim_lint'
-gem 'pg'
 gem 'turbolinks', '~> 5'
 gem 'webpacker', '~> 4.0'
 
