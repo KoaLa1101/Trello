@@ -3,10 +3,22 @@
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
 
+import 'jquery';
+import 'popper.js';
+import 'bootstrap';
+
 require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
+
+import Sorter from 'components/script.js';
+
+window.onload = function() {
+    Array.from(document.querySelectorAll('.js-cards')).forEach(($el) => {
+        new Sorter($el)
+    });
+}
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference
